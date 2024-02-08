@@ -1,38 +1,241 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: var(--body-color);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+a{
+  text-decoration: none;
+  display: inline-block;
 }
+:root{
+  --body-color: #f1f2f4;
+  --primary-color: #032a5c;
+  --secondary-color:#00193a;
+  --main-color: #092143;
+  --element-color:#FF504E;
+  --hover-element: #fc0213;
+}
+/* Header Section Start Here */
+.header-top{
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-.App-header {
-  min-height: 100vh;
+}
+.header-top p{
+  font-size: 14px;
+  color: #fff;
+}
+.top-social a{
+ color: #fff;
+ margin: 0 5px;
+ font-size: 20px;
+ cursor: pointer;
+}
+.logo{
+  width: 250px;
+}
+.header-main{
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  background-color: var(--main-color);
+}
+.search-box{
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.header-items img{
+  width: 35px;
+  height: 35px;
+}
+.header-main p{
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+}
+.header-bottom{
+  background-color: var(--primary-color);
+}
+.header-menu-items{
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* Header Section Ends Here */
+
+/* Footer Section Start Here */
+footer{
+  background-color: var(--main-color);
+  color: #fff;
+  border-top: 1px solid #454b85;
+}
+.copyright{
+  font-size: 14px;
+}
+.footer-menu{
+  height: 300px;
+}
+.footer-menu p{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+#news-btn{
+  background-color: var(--element-color);
+}
+#news-btn :hover{
+  background-color: var(--hover-element);
+}
+/* Footer Section Ends Here */
+
+/* Homepage Starts Here  */
+.main-container{
+  margin: 0 50px;
+}
+.main-banner{
+  display: flex;
+  align-items: center;justify-content: center;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.banner img{
+  height: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+.banner-mini img{
+  height: 170px;
+  margin: 15px;
+  border-radius: 10px;
+}
+.category-section{
+  background-color: #fff;
+  padding: 30px 10px;
+}
+.category-heading{
+  font-size: 30px;
+  font-weight: 800;
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+.top-categories img{
+  border-radius: 10px;
+  height: 280px;
+	transform: scale(1);
+	transition: .2s ease-in-out;
+  
+}
+.top-categories div :hover{
+	transform: scale(1.1);
+}
+.top-categories h4{
+  font-weight: 700;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  color: #fff;
+}
+.category-menu{
+  background-color: #fff;
+  padding: 30px 50px;
+  margin: 10px 0;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  gap: 30px;
+}
+.category-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.category-items img{
+  /* width: 64px; */
+  height: 64px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.category-items span{
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.quality-section img{
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.quality-section p{
+  font-size: 18px;
+  font-weight: 700;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.featured-collection h2{
+  font-weight: 800;
+}
+.blog-card h2{
+  font-weight: 800;
+}
+
+
+/* Home Page Section Ends Here */
+
+/* Our Store Section Starts Here */
+.category-filter li{
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.availablity {
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+.availablity input{
+  margin-right: 8px;
+}
+.availablity label{
+  color: gray;
+  font-size: 14px;
+}
+.price-filter input{
+  border: 1px solid rgba(128, 128, 128, 0.332);
+  width: 100px;
+  padding: 6px 15px;
+  border-radius: 6px;
+}
+.color-filter li{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #FF504E;
+  cursor: pointer;
+}
+
+
+/* Our Store Section Ends Here */
+
+/* contact us section starts here  */
+
+#contact{
+  color: black;
+}
+/* contact us section ends here  */
+
+/* blog page start here  */
+.blogpage{
+  justify-content: start!important;
+}
+/* wishlist section */
+
+.wishlist-card{
+  width: 200px;
+  height: auto;
 }
