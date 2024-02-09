@@ -20,6 +20,7 @@ import ShippingPolicy from './pages/ShippingPolicy'
 import RefundPolicy from './pages/RefundPolicy';
 import SingleProduct from './pages/SingleProduct';
 import Checkout from './pages/Checkout';
+import ResetPassword from './pages/ResetPassword'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="login" element = {<Login/>} />
           <Route path="signup" element = {<SignUp/>} />
           <Route path="forgot-password" element = {<ForgetPassword/>} />
+          <Route path="reset-password" element = {<ResetPassword/>} />
           <Route path="help-center" element = {<Contact/>} />
           <Route path="privacy-policy" element = {<PrivacyPolicy/>} />
           <Route path="term-conditions" element = {<TermsCondition/>} />

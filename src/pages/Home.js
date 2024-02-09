@@ -32,7 +32,7 @@ function Home() {
 
           {/* Branding Section Starts Here */}
 
-          <section className='quality-section flex justify-center items-center gap-24 text-center my-12'>
+          <section className='quality-section flex justify-center items-center lg:gap-14 xl:gap-24 text-center my-12'>
             <div className='flex justify-center items-center flex-col'>
               <img src='images/delivery-quality.svg' alt='Quality'/>
               <p>Free Shipping</p>

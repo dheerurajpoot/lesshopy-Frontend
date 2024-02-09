@@ -42,7 +42,7 @@ export const Header = () => {
       </div>
       <div className='main-search'>
         <div class="search-box relative text-gray-600">
-          <input type="search" name="serch" placeholder="Search here" class="bg-white h-[48px] px-5 pr-10 w-[40rem] rounded-full text-sm focus:outline-none"/>
+          <input type="search" name="serch" placeholder="Search here" class="bg-white h-[48px] px-5 pr-10 md:w-[20rem] lg:w-[35rem] rounded-full text-sm focus:outline-none"/>
           <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
           <BsSearch className='text-[24px]' />
           </button>

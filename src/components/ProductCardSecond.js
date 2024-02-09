@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaCartPlus } from "react-icons/fa";
 import ReactStars from "react-rating-stars-component";
 import { Link } from 'react-router-dom';
 
@@ -13,24 +12,24 @@ const ProductCardSecond = () => {
                 </Link>
             </div>
           <Link>
-            <img class="h-60 rounded-t-lg object-cover ml-7" src="images/tab3.jpg" alt="product 2" />
+            <img class="md:h-40 lg:h-50 xl:h-60 rounded-t-lg object-cover ml-7" src="images/tab3.jpg" alt="product 2" />
           </Link>
             <span class="absolute top-0 left-0 w-28 translate-y-4 -translate-x-6 -rotate-45 bg-black text-center text-sm text-white">Sale</span>
           <div class="px-5 pb-3">
               <Link>
-                <h5 class="text-base font-semibold tracking-tight text-slate-900">Nike Air MX Super 5000</h5>
+                <h5 class="lg:text-sm xl:text-base font-semibold tracking-tight text-slate-900">Nike Air MX Super 5000</h5>
               </Link>
               <div class="mb-2 flex items-center">
               <ReactStars count={5} value='3' edit={false} size={20} activeColor="#FF504E"/>
               </div>
               <div class="flex items-center justify-between">
                   <p>
-                    <span class="text-lg font-bold text-slate-900">$249</span>
+                    <span class="lg:text-base xl:text-lg font-bold text-slate-900">$249</span>
                     <span class="text-sm text-slate-900 line-through">$299</span>
                   </p>
-                  <Link class="flex items-center rounded-md bg-[#FF504E] px-3 py-2.5 text-center text-sm font-medium text-white hover:bg-[#092143] focus:outline-none focus:ring-4 focus:ring-blue-300">
+                  {/* <Link class="flex items-center rounded-md bg-[#FF504E] px-3 py-2.5 text-center text-sm font-medium text-white hover:bg-[#092143] focus:outline-none focus:ring-4 focus:ring-blue-300">
                   <FaCartPlus className='mr-2'/>Add to cart
-                  </Link>
+                  </Link> */}
               </div>
           </div>
       </div>

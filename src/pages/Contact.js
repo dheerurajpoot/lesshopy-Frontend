@@ -5,7 +5,7 @@ function Contact() {
   return (
     <>
       <MetaTitle title ={"Contact Us"}/>
-      <section className='py-50 mt-10 flex flex-col justify-center items-center'>
+      <section className='contact-page py-50 mt-10 flex flex-col justify-center items-center'>
           <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.611106164305!2d80.24258488715134!3d26.50046361732155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c37a28840e1b3%3A0x22b1b6f66d098fc2!2sPurana%20Shivali%20Rd%2C%20Kalyanpur%2C%20Kanpur%2C%20Uttar%20Pradesh%20208017!5e0!3m2!1sen!2sin!4v1707305720445!5m2!1sen!2sin" width="1280" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='contact'></iframe>
           </div>

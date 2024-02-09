@@ -109,11 +109,11 @@ const Store = () => {
                         </Link>
                     <div class=" px-2">
                               <Link>
-                                  <h5 class="text-sm font-semibold tracking-tight text-slate-900">Nike Air MX Super 2500 - Red</h5>
+                                  <h5 class="lg:text-xs xl:text-sm font-semibold tracking-tight text-slate-900">Nike Air MX Super 2500 - Red</h5>
                               </Link>
                               <div class="flex items-center">
                                   <div class=" flex items-center">
-                                      <ReactStars count={5} value='3' edit={false} size={14} activeColor="#FF504E"/>
+                                      <ReactStars count={5} value='3' edit={false} size={12} activeColor="#FF504E"/>
                                   </div>
                               </div>
                             <div class="mb-2 flex items-center justify-between">
@@ -122,8 +122,6 @@ const Store = () => {
                                 <span class="text-xs text-slate-900 line-through">$699</span>
                               </p>
                             </div>
-                          {/* <Link class="flex items-center justify-center rounded-md bg-[#FF504E] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#092143] focus:outline-none focus:ring-4 focus:ring-blue-300"><FaCartPlus className='mr-2'/>Add to cart
-                          </Link> */}
                     </div>
                 </div>
                   <div class="relative m-2 p-2 ml-0 flex w-full overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
@@ -132,11 +130,11 @@ const Store = () => {
                         </Link>
                     <div class=" px-2">
                               <Link>
-                                  <h5 class="text-sm font-semibold tracking-tight text-slate-900">Nike Air MX Super 2500 - Red</h5>
+                                  <h5 class="lg:text-xs xl:text-sm font-semibold tracking-tight text-slate-900">Nike Air MX Super 2500 - Red</h5>
                               </Link>
                               <div class="flex items-center">
                                   <div class=" flex items-center">
-                                      <ReactStars count={5} value='3' edit={false} size={14} activeColor="#FF504E"/>
+                                      <ReactStars count={5} value='3' edit={false} size={12} activeColor="#FF504E"/>
                                   </div>
                               </div>
                             <div class="mb-2 flex items-center justify-between">
@@ -145,8 +143,6 @@ const Store = () => {
                                 <span class="text-xs text-slate-900 line-through">$699</span>
                               </p>
                             </div>
-                          {/* <Link class="flex items-center justify-center rounded-md bg-[#FF504E] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#092143] focus:outline-none focus:ring-4 focus:ring-blue-300"><FaCartPlus className='mr-2'/>Add to cart
-                          </Link> */}
                     </div>
                 </div>
                   <div class="relative m-2 p-2 ml-0 flex w-full overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
@@ -155,11 +151,11 @@ const Store = () => {
                         </Link>
                     <div class=" px-2">
                               <Link>
-                                  <h5 class="text-sm font-semibold tracking-tight text-slate-900">Nike Air MX Super 2500 - Red</h5>
+                                  <h5 class="lg:text-xs xl:text-sm font-semibold tracking-tight text-slate-900">Nike Air MX Super 2500 - Red</h5>
                               </Link>
                               <div class="flex items-center">
                                   <div class=" flex items-center">
-                                      <ReactStars count={5} value='3' edit={false} size={14} activeColor="#FF504E"/>
+                                      <ReactStars count={5} value='3' edit={false} size={12} activeColor="#FF504E"/>
                                   </div>
                               </div>
                             <div class="mb-2 flex items-center justify-between">
@@ -168,8 +164,6 @@ const Store = () => {
                                 <span class="text-xs text-slate-900 line-through">$699</span>
                               </p>
                             </div>
-                          {/* <Link class="flex items-center justify-center rounded-md bg-[#FF504E] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#092143] focus:outline-none focus:ring-4 focus:ring-blue-300"><FaCartPlus className='mr-2'/>Add to cart
-                          </Link> */}
                     </div>
                 </div>
               </div>

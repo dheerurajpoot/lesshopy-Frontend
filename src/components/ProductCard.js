@@ -19,7 +19,7 @@ const ProductCard = () => {
               </div>
               <div class=" px-5">
                         <div>
-                            <h5 class="text-base font-semibold tracking-tight text-slate-900">Nike Air MX Super 2500 - Red</h5>
+                            <h5 class="lg:text-sm xl:text-base font-semibold tracking-tight text-slate-900">Nike Air MX Super 2500 - Red</h5>
                         </div>
                         <div class="flex items-center">
                             <div class=" flex items-center">
@@ -28,7 +28,7 @@ const ProductCard = () => {
                         </div>
                       <div class="mb-2 flex items-center justify-between">
                         <p>
-                          <span class="text-lg font-bold text-slate-900">$449</span>
+                          <span class="lg:text-base xl:text-lg font-bold text-slate-900">$449</span>
                           <span class="text-sm text-slate-900 line-through">$699</span>
                         </p>
                       </div>

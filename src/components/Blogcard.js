@@ -10,7 +10,7 @@ const Blogcard = () => {
                     </Link>
                 <div class="p-5">
                     <Link>
-                        <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2">Noteworthy technology acquisitions 2021</h5>
+                        <h5 class="text-gray-900 font-bold lg:text-lg xl:text-2xl tracking-tight mb-2">Noteworthy technology acquisitions 2021</h5>
                     </Link>
                     <p className='my-2 text-gray-500 text-sm'>06 Feb 2024</p>
                     <p class="font-normal text-gray-700 mb-3">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
