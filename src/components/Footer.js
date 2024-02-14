@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
         </div>
       </footer>
-      <footer className='h-28 flex justify-around items-center'>
+      <footer className='footer-second h-28 flex justify-around items-center'>
         <div>
           <p className='mb-3'>Payment System :</p>
           <img src='images/payment.png' alt='lesshopy payment'/>

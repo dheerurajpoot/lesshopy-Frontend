@@ -59,7 +59,7 @@ function Home() {
 
           <section className='featured-collection rounded my-10 p-4' >
               <h2 className='text-[30px] my-3'>Featured Collection</h2>
-              <div className='flex justify-center items-center '>
+              <div className='featured-product flex justify-center items-center '>
                   <ProductCard/>
                   <ProductCard/>
                   <ProductCard/>
@@ -101,7 +101,7 @@ function Home() {
 
           <section className='featured-collection rounded my-10 p-4' >
               <h2 className='text-[30px] my-3'>Best Selling Products</h2>
-              <div className='flex justify-center items-center '>
+              <div className='best-selling flex justify-center items-center '>
                   <ProductCardSecond/>
                   <ProductCardSecond/>
                   <ProductCardSecond/>
@@ -118,7 +118,7 @@ function Home() {
 
           <section className='blog-card bg-white rounded my-10 p-4'>
              <h2 className='text-[30px] my-3'>Blogs</h2>
-               <div className='flex justify-center items-center gap-6'>
+               <div className='blog-section flex justify-center items-center gap-6'>
                   <Blogcard/>
                   <Blogcard/>
                   <Blogcard/>

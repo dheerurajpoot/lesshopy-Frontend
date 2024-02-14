@@ -62,10 +62,10 @@ export const Header = () => {
           </Link>
         </div>
         <div>
-          <Link to={'/cart'} className='flex justify-center items-center gap-2'>
+          <Link to={'/cart'} className='relative flex justify-center items-center gap-2'>
               <img src='images/cart.svg' alt='Login to Lesshopy'></img>
               <div>
-                <span className='bg-white px-3 rounded-xl'>0</span>
+                <span className='order-number bg-white px-3 rounded-xl'>0</span>
                 <p>$500</p>
               </div>
           </Link>
@@ -73,14 +73,14 @@ export const Header = () => {
       </div>
     </header>
     <header className='header-bottom flex justify-around items-center text-white'>
-      <div className='flex justify-center items-center gap-4 h-10'>
+      <div className='header-bottom-menu flex justify-center items-center gap-4 h-10'>
         <NavLink className='header-menu-items' to="/">Home</NavLink>
         <NavLink className='header-menu-items' to="/store">Our Store</NavLink>
         <NavLink className='header-menu-items' to="/blogs">Blogs</NavLink>
         <NavLink className='header-menu-items' to="/contact">Contact</NavLink>
         <NavLink className='header-menu-items' to="/about">About</NavLink>
       </div>
-      <div className='flex gap-6'>
+      <div className='bottom-privacy-menu flex gap-6'>
         <Link to="/help-center">Help Center</Link>
         <Link to="/privacy-policy">Privacy Policy</Link>
         <Link to="/faq">FAQ</Link>

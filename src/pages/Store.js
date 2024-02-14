@@ -11,7 +11,7 @@ const Store = () => {
       <MetaTitle title ={"Our Store"}/>
       <BreadCrumb title = "ourstore"/>
       <div className='flex justify-center gap-4 mb-5'>
-          <section className='w-[20%]'>
+          <section className='store-sidebar w-[20%]'>
               <div className='bg-white m-3 mt-0 p-6'>
                   <h4 className='text-base font-bold mb-4'>Shop By Category</h4>
                   <div className='category-filter text-gray-500 text-sm'>

@@ -123,6 +123,7 @@ footer{
   font-weight: 800;
   /* text-align: center; */
   margin-bottom: 20px;
+  margin-left: 40px;
 }
 .top-categories img{
   border-radius: 10px;
@@ -143,12 +144,12 @@ footer{
 }
 .category-menu{
   background-color: #fff;
-  padding: 30px 50px;
+  padding: 30px 40px;
   margin: 10px 0;
   display: flex;
   justify-content: start;
   align-items: start;
-  gap: 25px;
+  gap: 10px;
   overflow: scroll;
 }
 .category-items{
@@ -171,6 +172,9 @@ footer{
   width: 150px;
   text-align: center;
   
+}
+.category-menu::-webkit-scrollbar {
+  display: none;
 }
 .quality-section img{
   width: 50px;
@@ -275,5 +279,123 @@ footer{
   }
   .contact-page iframe{
     width: 1080px;
+  }
+}
+@media only screen and (max-width: 500px) and (min-width: 350px){
+  .top-social{
+    display: none;
+  }
+  .header-top{
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .header-top p{
+    font-size: 12px;
+  }
+  .order-number{
+    padding: 0 5px!important;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background: transparent!important;
+    color: #FF504E;
+    font-weight: 800;
+  }
+  .main-search{
+    display: none;
+  }
+  .header-items p{
+    display: none;
+  }
+  .header-items{
+    gap: 10px!important;
+  }
+  .header-items img{
+    width: 25px;
+  }
+  .logo{
+    width: 160px!important;
+  }
+  .header-bottom-menu{
+    gap: 10px!important;
+    font-size: 12px;
+  }
+  .footer-menu{
+    display: none!important;
+  }
+  .main-container{
+    margin: 0 20px;
+  }
+  .blog-card{
+    overflow: hidden;
+  }
+  .bottom-privacy-menu{
+    display: none!important;
+  }
+  .top-categories{
+    overflow: scroll;
+    flex-wrap: wrap;
+  }
+  .category-menu{
+    padding: 10px 20px;
+  }
+  .category-menu img{
+    width: 50px;
+    height: 50px;
+  }
+  .category-items span{
+    width: 75px;
+    font-size: 10px;
+  }
+  
+  /* .top-categories h4{
+    font-size: 10px;
+    width: 150px;
+  } */
+  .featured-product{
+    flex-wrap: wrap;
+  }
+  .quality-section{
+    flex-wrap: wrap;
+  }
+  .blog-section{
+    flex-wrap: wrap;
+  }
+  .best-selling{
+    flex-wrap: wrap;
+  }
+  .main-banner{
+    flex-direction: column;
+  }
+  .banner-mini{
+    display: flex;
+    gap: 10px;
+  }
+  .banner-mini img{
+    height: 90px;
+    margin: 0px;
+  }
+  .featured-collection h2{
+    font-size: 24px;
+  }
+  .mini-banner-section{
+    flex-direction: column;
+  }
+  .footer-second{
+    flex-direction: column;
+    height: 9rem!important;
+  }
+  .footer-second .top-social{
+    display: block;
+  }
+  .blog-sidebar{
+    display: none;
+  }
+  .blogpage{
+    width: 100%!important;
+    
+  }
+  .store-sidebar{
+    display: none;
   }
 }

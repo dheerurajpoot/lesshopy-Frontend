@@ -7,8 +7,8 @@ const Blogs = () => {
     <>
       <MetaTitle title ={"Blogs"}/>
       <section className='flex gap-5 my-10 justify-center items-start'>
-          <div className='w-[20%] bg-white'>
-          <div className='bg-white m-3 mt-0 p-6'>
+          <div className='w-[20%] blog-sidebar bg-white'>
+              <div className='bg-white m-3 mt-0 p-6'>
                   <h4 className='text-base font-bold mb-4'>Find By Category</h4>
                   <div className='category-filter text-gray-500 text-sm'>
                     <ul>
