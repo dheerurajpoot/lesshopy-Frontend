@@ -8,7 +8,7 @@ const SingleBlog = () => {
       <MetaTitle title ={"Single Blog Post"}/>
       <BreadCrumb title = "single blog/id"/>
       <section className='flex gap-10 my-10 justify-center items-start'>
-          <div className='w-[70%]'>
+          <div className='single-blog w-[70%]'>
               <section class="mb-10 bg-white p-10">
                 <img src="images/blog-1.jpg" class="mb-6 rounded-lg w-full shadow-lg" alt="blog post" />
 
@@ -47,13 +47,13 @@ const SingleBlog = () => {
                               placeholder="Write a comment..." required></textarea>
                       </div>
                       <button type="submit"
-                          class="py-2.5 px-4 text-xs font-medium text-center text-white bg-[#FF504E] rounded-lg">
+                          class="py-2.5 px-4 mx-3 text-xs font-medium text-center text-white bg-[#FF504E] rounded-lg">
                           Post comment
                       </button>
                   </form>
               </section>
           </div>
-          <div className='w-[20%] bg-white'>
+          <div className='single-blog-sidebar w-[20%] bg-white'>
               <div className='bg-white m-3 mt-0 p-6'>
                   <h4 className='text-base font-bold mb-4'>Find By Category</h4>
                   <div className='category-filter text-gray-500 text-sm'>

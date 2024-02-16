@@ -6,7 +6,7 @@ const Wishlist = () => {
   return (
     <>
       <MetaTitle title ={"Wishlist"}/>
-      <section className='m-10 flex flex-wrap justify-start items-center gap-5'>
+      <section className='m-3 md:m-8 lg:m-10 flex flex-wrap justify-center md:justify-start lg:justify-start items-center gap-2 md:gap-4 lg:gap-5'>
           <div className='wishlist-card relative bg-white flex flex-col justify-center items-center p-4 rounded-lg'>
               <div className='mb-2 '>
                   <img className='absolute top-3 right-3 w-4 cursor-pointer' src='images/cross.svg' alt='cross'/>

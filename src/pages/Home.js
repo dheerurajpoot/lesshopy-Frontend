@@ -33,22 +33,22 @@ function Home() {
           {/* Branding Section Starts Here */}
 
           <section className='quality-section flex justify-center items-center lg:gap-14 xl:gap-24 text-center my-12'>
-            <div className='flex justify-center items-center flex-col'>
+            <div className='quality-items flex justify-center items-center flex-col'>
               <img src='images/delivery-quality.svg' alt='Quality'/>
               <p>Free Shipping</p>
               <span>Get Free Shipping Over ₹199 </span>
             </div>
-            <div className='flex justify-center items-center flex-col'>
+            <div className='quality-items flex justify-center items-center flex-col'>
               <img src='images/support-quality.svg' alt='Quality'/>
               <p>24/7 Support</p>
               <span>We provides 27/7 Customer Support.</span>
             </div>
-            <div className='flex justify-center items-center flex-col'>
+            <div className='quality-items flex justify-center items-center flex-col'>
               <img src='images/payment-quality.svg' alt='Quality'/>
               <p>Online Payment</p>
               <span>We have a Secure Payment Gateway.</span>
             </div>
-            <div className='flex justify-center items-center flex-col'>
+            <div className='quality-items flex justify-center items-center flex-col'>
               <img src='images/fastdelivery-quality.svg' alt='Quality'/>
               <p>Fast Delivery</p>
               <span>Superfast Delivery</span>
@@ -57,7 +57,7 @@ function Home() {
 
           {/* Featured Product Section Start Here  */}
 
-          <section className='featured-collection rounded my-10 p-4' >
+          <section className='featured-collection rounded my-10' >
               <h2 className='text-[30px] my-3'>Featured Collection</h2>
               <div className='featured-product flex justify-center items-center '>
                   <ProductCard/>
@@ -73,33 +73,37 @@ function Home() {
 
           <section className='category-section my-10'>
             <h2 className='category-heading'>Top Categories</h2>
-            <div className='top-categories flex justify-center items-center gap-10'>
-              <div className='relative'>
+            <div className='top-categories flex justify-center items-center gap-8'>
+              <div className='category-section-items relative'>
                 <img src='images/trousers.jpeg' alt='category'/>
                 <h4>TROUSERS</h4>
               </div>
-              <div className='relative'>
+              <div className='category-section-items relative'>
                 <img src='images/t-shirts.jpeg' alt='category'/>
                 <h4>T-SHIRTS</h4>
               </div>
-              <div className='relative'>
+              <div className='category-section-items relative'>
                 <img src='images/legging.jpeg' alt='category'/>
                 <h4> LEGGING & PATIYALA</h4>
               </div>
-              <div className='relative'>
+              <div className='category-section-items relative'>
                 <img src='images/casual-shoes.jpeg' alt='category'/>
                 <h4 >CASUAL SHOES</h4>
               </div>
-              <div className='relative'>
+              <div className='category-section-items relative'>
                 <img src='images/jwallery.jpeg' alt='category'/>
                 <h4 >JEWELLERY</h4>
+              </div>
+              <div className='category-section-items relative'>
+                <img src='images/t-shirts.jpeg' alt='category'/>
+                <h4 >GIRLS FASHION</h4>
               </div>
             </div>
           </section>
 
           {/* Best Selling Products Section starts Here */}
 
-          <section className='featured-collection rounded my-10 p-4' >
+          <section className='featured-collection rounded my-10' >
               <h2 className='text-[30px] my-3'>Best Selling Products</h2>
               <div className='best-selling flex justify-center items-center '>
                   <ProductCardSecond/>
@@ -116,7 +120,7 @@ function Home() {
 
           {/* blog Post Section Starts here  */}
 
-          <section className='blog-card bg-white rounded my-10 p-4'>
+          <section className='blog-card bg-white rounded my-10'>
              <h2 className='text-[30px] my-3'>Blogs</h2>
                <div className='blog-section flex justify-center items-center gap-6'>
                   <Blogcard/>

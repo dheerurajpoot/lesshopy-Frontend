@@ -168,7 +168,7 @@ const Store = () => {
                 </div>
               </div>
           </section>
-          <section className='w-[75%] bg-white flex justify-center flex-wrap items-start p-8'>
+          <section className='store-products w-[75%] bg-white flex justify-center flex-wrap items-start md:p-7 lg:p-8'>
               <ProdutCard/>
               <ProdutCard/>
               <ProdutCard/>

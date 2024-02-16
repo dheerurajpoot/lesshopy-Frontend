@@ -6,7 +6,7 @@ const Cart = () => {
   return (
     <>
       <MetaTitle title ={"My Cart"}/>
-      <section className='mx-auto max-w-7xl p-10 bg-white my-10'>
+      <section className='my-cart mx-auto max-w-7xl p-10 bg-white my-10'>
             <div class="flex justify-between border-b pb-8">
                 <h1 class="font-semibold text-2xl">Shopping Cart</h1>
                 <h2 class="font-semibold text-2xl"> 1 Items</h2>

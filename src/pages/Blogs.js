@@ -20,7 +20,7 @@ const Blogs = () => {
                   </div>
               </div>
           </div>
-          <div className='blogpage w-[75%] bg-white flex justify-center flex-wrap items-start p-8'>
+          <div className='blogpage w-[75%] bg-white flex justify-center flex-wrap items-start p-3 md:p-7 lg:p-8'>
               <BlogCard/>
               <BlogCard/>
               <BlogCard/>

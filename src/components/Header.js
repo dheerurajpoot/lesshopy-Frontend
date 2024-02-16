@@ -72,6 +72,14 @@ export const Header = () => {
         </div>
       </div>
     </header>
+      <div className='mobile-search'>
+        <div class="search-box relative text-gray-600">
+          <input type="search" name="serch" placeholder="Search here" class="bg-white h-[48px] px-5 pr-10 w-[100%] rounded-full text-sm focus:outline-none"/>
+          <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
+          <BsSearch className='text-[24px]' />
+          </button>
+        </div>
+      </div>
     <header className='header-bottom flex justify-around items-center text-white'>
       <div className='header-bottom-menu flex justify-center items-center gap-4 h-10'>
         <NavLink className='header-menu-items' to="/">Home</NavLink>

@@ -3,12 +3,14 @@ import MetaTitle from '../components/MetaTitle'
 import { Link } from 'react-router-dom'
 import ReactStars from "react-rating-stars-component";
 import ProductCard from '../components/ProductCard';
+import BreadCrumb from '../components/BreadCrumb'
 
 const SingleProduct = () => {
   return (
     <>
     <MetaTitle title ={"Single Product"}/>
-    <section class="py-20 overflow-hidden  font-poppins">
+    <BreadCrumb title = "product/id"/>
+    <section class="single-product py-20 overflow-hidden  font-poppins">
         <div class="max-w-6xl px-4 py-4 bg-white mx-auto lg:py-8 md:px-6">
             <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4 md:w-1/2 ">
@@ -118,12 +120,12 @@ const SingleProduct = () => {
                                 <Link to={'/cart'} class="w-full h-10 p-2 font-bold  mr-4 bg-[#ff504e] rounded-lg text-gray-50 hover:bg-blue-600">Buy Now</Link>
                             </div>
                             <div class="mb-4 mr-4 lg:mb-0">
-                                <Link class="flex items-center justify-center w-full h-10 p-2 border border-gray-300 lg:w-11 bg-[#ff504e] rounded-lg hover:bg-blue-600 hover:border-blue-600">
+                                <Link class="flex items-center justify-center w-10 md:w-full h-10 p-2 border border-gray-300 lg:w-11 bg-[#ff504e] rounded-lg hover:bg-blue-600 hover:border-blue-600">
                                     <img src='images/cart.svg' alt='cart'/>
                                 </Link>
                             </div>
                             <div class="mb-4 lg:mb-0">
-                                <Link class="flex items-center justify-center w-full h-10 p-2 border border-gray-300 lg:w-11 bg-[#ff504e] rounded-lg hover:bg-blue-600 hover:border-blue-600">
+                                <Link class="flex items-center justify-center w-10 md:w-full h-10 p-2 border border-gray-300 lg:w-11 bg-[#ff504e] rounded-lg hover:bg-blue-600 hover:border-blue-600">
                                     <img src='images/wishlist.svg' alt='wishlist'/>
                                 </Link>
                             </div>
@@ -145,7 +147,7 @@ const SingleProduct = () => {
           </section>
           <section className=' max-w-6xl px-4 py-4 mb-10 bg-white mx-auto lg:py-8 md:px-6' >
               <h2 className='text-[30px] font-bold my-3'>Recent Products</h2>
-              <div className='flex justify-center items-center '>
+              <div className='recent-product flex justify-center items-center '>
                   <ProductCard/>
                   <ProductCard/>
                   <ProductCard/>

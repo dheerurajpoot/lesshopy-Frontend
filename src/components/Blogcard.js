@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Blogcard = () => {
   return (
-        <div class="max-w-lg mx-auto">
+        <div class="blog max-w-lg mx-auto">
             <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5">  
                     <Link>
                     <img class="rounded-t-lg" src="images/blog-1.jpg" alt=""/>
                     </Link>
-                <div class="p-5">
+                <div class="p-3 md:p-5 lg:p-5">
                     <Link>
                         <h5 class="text-gray-900 font-bold lg:text-lg xl:text-2xl tracking-tight mb-2">Noteworthy technology acquisitions 2021</h5>
                     </Link>

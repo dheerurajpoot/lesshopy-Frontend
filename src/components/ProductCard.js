@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const ProductCard = () => {
   return (
     <>
-      <div class="relative m-2 flex w-full max-w-64 flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+      <div class="product-card relative m-2 flex md:w-full lg:w-full max-w-64 flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
           <div>
               <Link>
                   <img className='absolute z-10 right-4 top-4 w-[20px]' src='images/wish.svg' alt='wishlist'/>

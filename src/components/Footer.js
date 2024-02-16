@@ -31,7 +31,7 @@ const Footer = () => {
       <footer className='footer-menu flex items-center justify-around'>
         <div>
           <p>Contact Us</p>
-          <div>
+          <div className='text-gray-400'>
             <address className='mb-3'>Purana Shivli Road, Kalyanpur,<br/> Kanpur Nagar (208017)</address>
             <div className='mb-3'>
               <span>Mob : </span>
@@ -43,42 +43,42 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className='footer-menu-items'>
           <p>Information</p>
-          <div className='flex flex-col gap-4'>
+          <div className='flex flex-col gap-4 text-gray-400'>
               <Link to={"/privacy-policy"}>Privacy Policy</Link>
               <Link to={"/refund-policy"}>Refund Policy</Link>
               <Link to={"/shipping-policy"}>Shipping Policy</Link>
               <Link to={"/term-conditions"}>Term & Conditions</Link>
           </div>
         </div>
-        <div>
+        <div className='footer-menu-items'>
           <p>Account</p>
-          <div className='flex flex-col gap-4'>
+          <div className='flex flex-col gap-4 text-gray-400'>
               <Link to={"/login"}>My Account</Link>
               <Link to={"/wishlist"}>My Wishlist</Link>
               <Link to={"/cart"}>My Cart</Link>
               <Link to={"/store"}>Our Store</Link>
           </div>
         </div>
-        <div>
+        <div className='footer-menu-items'>
           <p>Quick Links</p>
-          <div className='flex flex-col gap-4'>
+          <div className='flex flex-col gap-4 text-gray-400'>
               <Link to={"/about"}>About</Link>
               <Link to={"/faq"}>FAQ</Link>
               <Link to={"/contact"}>Contact</Link>
               <Link to={"/blogs"}>Blogs</Link>
           </div>
         </div>
-        <div>
+        <div className='footer-menu-items'>
           <p>Our App</p>
           <div>
-          <span>Available On :</span>
+          <span className='text-gray-400'>Available On :</span>
           <img className='mt-6 pb-8' src='images/playstore.png' alt='lesshopy payment'/>
         </div>
         </div>
       </footer>
-      <footer className='footer-second h-28 flex justify-around items-center'>
+      <footer className='footer-second h-28 text-center flex justify-around items-center'>
         <div>
           <p className='mb-3'>Payment System :</p>
           <img src='images/payment.png' alt='lesshopy payment'/>
